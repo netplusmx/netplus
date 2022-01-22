@@ -164,6 +164,26 @@ a:hover {
   background-color: #EE1C31;
 }
 
+.border2 {
+  border-top: 2px solid rgba(255, 255, 255, 0.09);
+  height: 1px;
+  margin: 15px auto 0;
+  position: relative;
+  width: 30%;
+}
+
+.border2:before {
+  background-color: #fff;
+  content: '';
+  height: 6px;
+  left: 50%;
+  margin-left: -20px;
+  position: absolute;
+  top: -4px;
+  width: 50px;
+  background-color: #FFF;
+}
+
 .color {
   color: #6CB670;
 }
